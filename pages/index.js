@@ -7,8 +7,8 @@ import { useRouter } from "next/router";
 import { useRef } from "react";
 
 export default function Home() {
-  const router = useRouter();
   const searchInputRef = useRef(null);
+  const router = useRouter();
 
   const searchHandler = (e) => {
     e.preventDefault();
